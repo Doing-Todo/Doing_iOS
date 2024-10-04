@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73870192CAFCC1A005D4DF2 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */; };
+		F738701C2CAFCC93005D4DF2 /* NavigationBtnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */; };
+		F738701E2CAFCCF6005D4DF2 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */; };
+		F73870212CAFCE6A005D4DF2 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870202CAFCE6A005D4DF2 /* Todo.swift */; };
+		F73870252CAFD001005D4DF2 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870242CAFD001005D4DF2 /* TodoView.swift */; };
+		F73870272CAFD049005D4DF2 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870262CAFD049005D4DF2 /* TodoViewModel.swift */; };
+		F73870292CAFD080005D4DF2 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870282CAFD080005D4DF2 /* TodoListViewModel.swift */; };
+		F738702C2CAFD147005D4DF2 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738702B2CAFD147005D4DF2 /* Path.swift */; };
+		F738702E2CAFD15B005D4DF2 /* PathType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738702D2CAFD15B005D4DF2 /* PathType.swift */; };
+		F73870312CAFD2A7005D4DF2 /* MainTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870302CAFD2A7005D4DF2 /* MainTabViewModel.swift */; };
+		F73870342CAFFA1D005D4DF2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870332CAFFA1D005D4DF2 /* OnboardingView.swift */; };
 		F750A7FE2CA0F466002A57C5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750A7FD2CA0F466002A57C5 /* SplashView.swift */; };
 		F750A8012CA0F4A4002A57C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750A8002CA0F4A4002A57C5 /* LoginView.swift */; };
 		F776DE0F2CA92E7400A4287E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE0E2CA92E7400A4287E /* MainTabView.swift */; };
@@ -57,6 +68,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBtnType.swift; sourceTree = "<group>"; };
+		F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		F73870202CAFCE6A005D4DF2 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		F73870242CAFD001005D4DF2 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		F73870262CAFD049005D4DF2 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		F73870282CAFD080005D4DF2 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		F738702B2CAFD147005D4DF2 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		F738702D2CAFD15B005D4DF2 /* PathType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathType.swift; sourceTree = "<group>"; };
+		F73870302CAFD2A7005D4DF2 /* MainTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewModel.swift; sourceTree = "<group>"; };
+		F73870332CAFFA1D005D4DF2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F750A7FD2CA0F466002A57C5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		F750A8002CA0F4A4002A57C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F776DE0E2CA92E7400A4287E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -119,12 +141,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F73870172CAFC932005D4DF2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F738701A2CAFCC64005D4DF2 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */,
+				F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		F738701F2CAFCE2A005D4DF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F738702A2CAFD12E005D4DF2 /* Path */,
+				F73870202CAFCE6A005D4DF2 /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F73870222CAFCF57005D4DF2 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				F73870232CAFCFEA005D4DF2 /* Todo */,
+				F776DE102CA9314800A4287E /* TodoListView.swift */,
+				F73870282CAFD080005D4DF2 /* TodoListViewModel.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		F73870232CAFCFEA005D4DF2 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				F73870242CAFD001005D4DF2 /* TodoView.swift */,
+				F73870262CAFD049005D4DF2 /* TodoViewModel.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		F738702A2CAFD12E005D4DF2 /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				F738702B2CAFD147005D4DF2 /* Path.swift */,
+				F738702D2CAFD15B005D4DF2 /* PathType.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		F738702F2CAFD260005D4DF2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F776DE0E2CA92E7400A4287E /* MainTabView.swift */,
+				F73870302CAFD2A7005D4DF2 /* MainTabViewModel.swift */,
+				F73870222CAFCF57005D4DF2 /* TodoList */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F73870322CAFF9D8005D4DF2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F73870332CAFFA1D005D4DF2 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		F750A7FC2CA0F449002A57C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				F750A7FD2CA0F466002A57C5 /* SplashView.swift */,
-				F776DE0E2CA92E7400A4287E /* MainTabView.swift */,
-				F776DE102CA9314800A4287E /* TodoListView.swift */,
 				F776DE122CA9316100A4287E /* MemoView.swift */,
 				F776DE142CA9319D00A4287E /* RecordingView.swift */,
 				F776DE162CA9361600A4287E /* TimerView.swift */,
@@ -170,7 +262,12 @@
 				F776DE372CA93F9100A4287E /* Info.plist */,
 				F7B362452CA0EC5E007E44E9 /* DoingApp.swift */,
 				F7B362472CA0EC5E007E44E9 /* ContentView.swift */,
+				F738701A2CAFCC64005D4DF2 /* NavigationBar */,
+				F73870322CAFF9D8005D4DF2 /* Onboarding */,
+				F738701F2CAFCE2A005D4DF2 /* Model */,
+				F73870172CAFC932005D4DF2 /* Extension */,
 				F750A7FF2CA0F47F002A57C5 /* Login */,
+				F738702F2CAFD260005D4DF2 /* Home */,
 				F750A7FC2CA0F449002A57C5 /* View */,
 				F7B362492CA0EC61007E44E9 /* Assets.xcassets */,
 				F7B3624B2CA0EC61007E44E9 /* Preview Content */,
@@ -352,17 +449,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F776DE192CA93D4900A4287E /* KakaoAuthVM.swift in Sources */,
+				F738702C2CAFD147005D4DF2 /* Path.swift in Sources */,
 				F776DE172CA9361600A4287E /* TimerView.swift in Sources */,
 				F776DE1B2CA93D6C00A4287E /* MyAppDelegate.swift in Sources */,
 				F776DE1D2CA93D8300A4287E /* MySceneDelegate.swift in Sources */,
+				F73870292CAFD080005D4DF2 /* TodoListViewModel.swift in Sources */,
+				F738701E2CAFCCF6005D4DF2 /* CustomNavigationBar.swift in Sources */,
 				F776DE132CA9316100A4287E /* MemoView.swift in Sources */,
+				F73870252CAFD001005D4DF2 /* TodoView.swift in Sources */,
+				F738701C2CAFCC93005D4DF2 /* NavigationBtnType.swift in Sources */,
+				F73870272CAFD049005D4DF2 /* TodoViewModel.swift in Sources */,
 				F7B362482CA0EC5E007E44E9 /* ContentView.swift in Sources */,
 				F7B362462CA0EC5E007E44E9 /* DoingApp.swift in Sources */,
 				F776DE112CA9314800A4287E /* TodoListView.swift in Sources */,
 				F776DE3A2CA9450D00A4287E /* SettingView.swift in Sources */,
+				F73870192CAFCC1A005D4DF2 /* Date+Extensions.swift in Sources */,
+				F738702E2CAFD15B005D4DF2 /* PathType.swift in Sources */,
+				F73870312CAFD2A7005D4DF2 /* MainTabViewModel.swift in Sources */,
 				F750A8012CA0F4A4002A57C5 /* LoginView.swift in Sources */,
 				F750A7FE2CA0F466002A57C5 /* SplashView.swift in Sources */,
 				F776DE152CA9319D00A4287E /* RecordingView.swift in Sources */,
+				F73870342CAFFA1D005D4DF2 /* OnboardingView.swift in Sources */,
+				F73870212CAFCE6A005D4DF2 /* Todo.swift in Sources */,
 				F776DE0F2CA92E7400A4287E /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

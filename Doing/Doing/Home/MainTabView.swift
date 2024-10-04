@@ -36,4 +36,6 @@ struct MainTabView: View {
 
 #Preview {
     MainTabView()
+        .environmentObject(PathModel())
+        .environmentObject(TodoListViewModel())
 }
