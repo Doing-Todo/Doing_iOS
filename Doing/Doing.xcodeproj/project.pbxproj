@@ -11,6 +11,9 @@
 		F71907DD2CB8EDEB00E6A5F4 /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907DC2CB8EDEB00E6A5F4 /* MemoListViewModel.swift */; };
 		F71907DF2CB8EE0300E6A5F4 /* MemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907DE2CB8EE0300E6A5F4 /* MemoListView.swift */; };
 		F71907E12CB8F08300E6A5F4 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907E02CB8F08300E6A5F4 /* Memo.swift */; };
+		F71907E42CB8F51800E6A5F4 /* VoiceRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907E32CB8F51800E6A5F4 /* VoiceRecorderView.swift */; };
+		F71907E62CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907E52CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift */; };
+		F71907E92CB8F75700E6A5F4 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907E82CB8F75700E6A5F4 /* Tab.swift */; };
 		F73870192CAFCC1A005D4DF2 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */; };
 		F738701C2CAFCC93005D4DF2 /* NavigationBtnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */; };
 		F738701E2CAFCCF6005D4DF2 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */; };
@@ -24,10 +27,10 @@
 		F73870342CAFFA1D005D4DF2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870332CAFFA1D005D4DF2 /* OnboardingView.swift */; };
 		F750A7FE2CA0F466002A57C5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750A7FD2CA0F466002A57C5 /* SplashView.swift */; };
 		F750A8012CA0F4A4002A57C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750A8002CA0F4A4002A57C5 /* LoginView.swift */; };
+		F75EC4912CBCD25300943842 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75EC4902CBCD25300943842 /* Double+Extensions.swift */; };
 		F776DE0F2CA92E7400A4287E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE0E2CA92E7400A4287E /* MainTabView.swift */; };
 		F776DE112CA9314800A4287E /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE102CA9314800A4287E /* TodoListView.swift */; };
 		F776DE132CA9316100A4287E /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE122CA9316100A4287E /* MemoView.swift */; };
-		F776DE152CA9319D00A4287E /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE142CA9319D00A4287E /* RecordingView.swift */; };
 		F776DE172CA9361600A4287E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE162CA9361600A4287E /* TimerView.swift */; };
 		F776DE192CA93D4900A4287E /* KakaoAuthVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE182CA93D4900A4287E /* KakaoAuthVM.swift */; };
 		F776DE1B2CA93D6C00A4287E /* MyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE1A2CA93D6C00A4287E /* MyAppDelegate.swift */; };
@@ -76,6 +79,9 @@
 		F71907DC2CB8EDEB00E6A5F4 /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
 		F71907DE2CB8EE0300E6A5F4 /* MemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListView.swift; sourceTree = "<group>"; };
 		F71907E02CB8F08300E6A5F4 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		F71907E32CB8F51800E6A5F4 /* VoiceRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderView.swift; sourceTree = "<group>"; };
+		F71907E52CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderViewModel.swift; sourceTree = "<group>"; };
+		F71907E82CB8F75700E6A5F4 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBtnType.swift; sourceTree = "<group>"; };
 		F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
@@ -89,10 +95,10 @@
 		F73870332CAFFA1D005D4DF2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		F750A7FD2CA0F466002A57C5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		F750A8002CA0F4A4002A57C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F75EC4902CBCD25300943842 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		F776DE0E2CA92E7400A4287E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		F776DE102CA9314800A4287E /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		F776DE122CA9316100A4287E /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
-		F776DE142CA9319D00A4287E /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
 		F776DE162CA9361600A4287E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		F776DE182CA93D4900A4287E /* KakaoAuthVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAuthVM.swift; sourceTree = "<group>"; };
 		F776DE1A2CA93D6C00A4287E /* MyAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppDelegate.swift; sourceTree = "<group>"; };
@@ -153,8 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				F71907D92CB8EDB500E6A5F4 /* Memo */,
-				F71907DC2CB8EDEB00E6A5F4 /* MemoListViewModel.swift */,
 				F71907DE2CB8EE0300E6A5F4 /* MemoListView.swift */,
+				F71907DC2CB8EDEB00E6A5F4 /* MemoListViewModel.swift */,
 			);
 			path = MemoList;
 			sourceTree = "<group>";
@@ -168,10 +174,28 @@
 			path = Memo;
 			sourceTree = "<group>";
 		};
+		F71907E22CB8F4F800E6A5F4 /* VoiceRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				F71907E32CB8F51800E6A5F4 /* VoiceRecorderView.swift */,
+				F71907E52CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift */,
+			);
+			path = VoiceRecorder;
+			sourceTree = "<group>";
+		};
+		F71907E72CB8F60000E6A5F4 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F776DE392CA9450D00A4287E /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		F73870172CAFC932005D4DF2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */,
+				F75EC4902CBCD25300943842 /* Double+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -191,6 +215,7 @@
 				F738702A2CAFD12E005D4DF2 /* Path */,
 				F73870202CAFCE6A005D4DF2 /* Todo.swift */,
 				F71907E02CB8F08300E6A5F4 /* Memo.swift */,
+				F71907E82CB8F75700E6A5F4 /* Tab.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +255,8 @@
 				F73870302CAFD2A7005D4DF2 /* MainTabViewModel.swift */,
 				F73870222CAFCF57005D4DF2 /* TodoList */,
 				F71907D82CB8ED6C00E6A5F4 /* MemoList */,
+				F71907E22CB8F4F800E6A5F4 /* VoiceRecorder */,
+				F71907E72CB8F60000E6A5F4 /* Setting */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -246,9 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				F750A7FD2CA0F466002A57C5 /* SplashView.swift */,
-				F776DE142CA9319D00A4287E /* RecordingView.swift */,
 				F776DE162CA9361600A4287E /* TimerView.swift */,
-				F776DE392CA9450D00A4287E /* SettingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -483,15 +508,18 @@
 				F776DE1B2CA93D6C00A4287E /* MyAppDelegate.swift in Sources */,
 				F776DE1D2CA93D8300A4287E /* MySceneDelegate.swift in Sources */,
 				F73870292CAFD080005D4DF2 /* TodoListViewModel.swift in Sources */,
+				F75EC4912CBCD25300943842 /* Double+Extensions.swift in Sources */,
 				F71907E12CB8F08300E6A5F4 /* Memo.swift in Sources */,
 				F738701E2CAFCCF6005D4DF2 /* CustomNavigationBar.swift in Sources */,
 				F776DE132CA9316100A4287E /* MemoView.swift in Sources */,
+				F71907E42CB8F51800E6A5F4 /* VoiceRecorderView.swift in Sources */,
 				F73870252CAFD001005D4DF2 /* TodoView.swift in Sources */,
 				F738701C2CAFCC93005D4DF2 /* NavigationBtnType.swift in Sources */,
 				F71907DF2CB8EE0300E6A5F4 /* MemoListView.swift in Sources */,
 				F73870272CAFD049005D4DF2 /* TodoViewModel.swift in Sources */,
 				F7B362482CA0EC5E007E44E9 /* ContentView.swift in Sources */,
 				F7B362462CA0EC5E007E44E9 /* DoingApp.swift in Sources */,
+				F71907E62CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift in Sources */,
 				F776DE112CA9314800A4287E /* TodoListView.swift in Sources */,
 				F776DE3A2CA9450D00A4287E /* SettingView.swift in Sources */,
 				F73870192CAFCC1A005D4DF2 /* Date+Extensions.swift in Sources */,
@@ -499,9 +527,9 @@
 				F73870312CAFD2A7005D4DF2 /* MainTabViewModel.swift in Sources */,
 				F750A8012CA0F4A4002A57C5 /* LoginView.swift in Sources */,
 				F750A7FE2CA0F466002A57C5 /* SplashView.swift in Sources */,
-				F776DE152CA9319D00A4287E /* RecordingView.swift in Sources */,
 				F71907DD2CB8EDEB00E6A5F4 /* MemoListViewModel.swift in Sources */,
 				F73870342CAFFA1D005D4DF2 /* OnboardingView.swift in Sources */,
+				F71907E92CB8F75700E6A5F4 /* Tab.swift in Sources */,
 				F73870212CAFCE6A005D4DF2 /* Todo.swift in Sources */,
 				F776DE0F2CA92E7400A4287E /* MainTabView.swift in Sources */,
 			);
