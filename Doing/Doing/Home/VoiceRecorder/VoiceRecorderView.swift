@@ -45,12 +45,12 @@ struct VoiceRecorderView: View {
         ) {
             Button("확인", role: .cancel) { }
         }
-//        .onChange(
-//            of: voiceRecorderViewModel.recordedFiles,
-//            perform: { recordedFiles in
-//                mainTabViewModel.setVoiceRecordersCount(recordedFiles.count)
-//            }
-//        )
+        .onChange(
+            of: voiceRecorderViewModel.recordedFiles,
+            perform: { recordedFiles in
+                mainTabViewModel.setVoiceRecordersCount(recordedFiles.count)
+            }
+        )
     }
 }
 

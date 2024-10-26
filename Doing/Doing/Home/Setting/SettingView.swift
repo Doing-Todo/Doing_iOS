@@ -137,6 +137,14 @@ private struct TotalTabMoveView: View {
                     mainTabViewModel.changeSelectedTab(.voiceRecorder)
                 }
             )
+            
+            TabMoveView(
+                title: "타이머",
+                tabAction: {
+                    mainTabViewModel.changeSelectedTab(.timer)
+                }
+            )
+            
             Rectangle()
                 .fill(Color.gray)
                 .frame(height: 1)
