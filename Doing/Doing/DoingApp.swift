@@ -16,8 +16,7 @@ struct DoingApp: App {
     
     var body: some Scene {
         WindowGroup {
-//            SplashView()
-            OnboardingView()
+            SplashView()
         }
     }
 }

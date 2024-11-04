@@ -12,12 +12,15 @@ struct SplashView: View {
     @State var isActive: Bool = false
     @StateObject var kakaoAuthVM : KakaoAuthVM = KakaoAuthVM()
     @AppStorage("testLogin") var testLogin : Bool = UserDefaults.standard.bool(forKey: "testLogin")
+    @StateObject private var pathModel = PathModel()
+    @StateObject private var todoListViewModel = TodoListViewModel()
+    @StateObject private var memoListViewModel = MemoListViewModel()
     
     var body: some View {
         ZStack {
             if self.isActive {
                 if testLogin {
-                    MainTabView()
+                    OnboardingView()
                         .navigationBarBackButtonHidden(true)
                         .navigationBarHidden(true)
                 }
@@ -36,6 +39,7 @@ struct SplashView: View {
                 withAnimation{self.isActive = true}
             }
         }
+        .environmentObject(pathModel)
     }
 }
 
