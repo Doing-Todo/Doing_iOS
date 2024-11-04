@@ -51,6 +51,9 @@ struct VoiceRecorderView: View {
                 mainTabViewModel.setVoiceRecordersCount(recordedFiles.count)
             }
         )
+        .onAppear {
+            voiceRecorderViewModel.requestAudioPermission()
+        }
     }
 }
 

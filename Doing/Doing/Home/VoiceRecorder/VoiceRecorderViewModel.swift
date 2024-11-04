@@ -213,4 +213,14 @@ extension VoiceRecorderViewModel {
     
     return (creationDate, duration)
   }
+    
+    func requestAudioPermission(){
+        AVCaptureDevice.requestAccess(for: .audio, completionHandler: { (granted: Bool) in
+            if granted {
+                print("Audio: 권한 허용")
+            } else {
+                print("Audio: 권한 거부")
+            }
+        })
+    }
 }
