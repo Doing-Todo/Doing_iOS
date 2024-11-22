@@ -145,6 +145,12 @@ private struct TotalTabMoveView: View {
                 }
             )
             
+            TabMoveView(
+                title: "채팅",
+                isChatLink: true
+                
+            )
+            
             Rectangle()
                 .fill(Color.gray)
                 .frame(height: 1)
@@ -155,20 +161,22 @@ private struct TotalTabMoveView: View {
 // MARK: - 각 탭 이동 뷰
 private struct TabMoveView: View {
     private var title: String
-    private var tabAction: () -> Void
+    private var tabAction: (() -> Void)?
+    private var isChatLink: Bool = false
     
     fileprivate init(
         title: String,
-        tabAction: @escaping () -> Void
+        tabAction: (() -> Void)? = nil,
+        isChatLink: Bool = false
     ) {
         self.title = title
         self.tabAction = tabAction
+        self.isChatLink = isChatLink
     }
     
     fileprivate var body: some View {
-        Button(
-            action: tabAction,
-            label: {
+        if isChatLink {
+            NavigationLink(destination: ChatListView()) {
                 HStack {
                     Text(title)
                         .font(.system(size: 14))
@@ -178,9 +186,25 @@ private struct TabMoveView: View {
                     Image(systemName: "chevron.right")
                         .foregroundColor(.gray)
                 }
+                .padding(.all, 20)
             }
-        )
-        .padding(.all, 20)
+        } else {
+            Button(
+                action: { tabAction?() },
+                label: {
+                    HStack {
+                        Text(title)
+                            .font(.system(size: 14))
+                            .foregroundColor(.black)
+                        
+                        Spacer()
+                        Image(systemName: "chevron.right")
+                            .foregroundColor(.gray)
+                    }
+                    .padding(.all, 20)
+                }
+            )
+        }
     }
 }
 
