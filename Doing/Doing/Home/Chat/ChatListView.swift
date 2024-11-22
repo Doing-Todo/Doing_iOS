@@ -36,14 +36,22 @@ struct ChatListView: View {
                 VStack(spacing: 16) { // 채팅방 목록을 수직 스택으로 정렬
                     ForEach(filteredChatRooms) { chatRoom in
                         NavigationLink(destination: ChatView(chatRoom: chatRoom)) {
-                            ChatRoomCell(chatRoom: chatRoom)
-                                .padding(.horizontal)
+                            HStack(spacing: 8) { // 이미지와 채팅방 정보 배치를 위한 수평 스택
+                                Image("person")
+                                    .resizable()
+                                    .frame(width: 40, height: 40)
+                                    .clipShape(Circle()) // 이미지 모양을 원형으로 설정
+                                    .shadow(radius: 5) // 그림자 추가
+                                
+                                ChatRoomCell(chatRoom: chatRoom)
+                            }
+                            .padding(.horizontal)
                         }
                     }
                 }
                 .padding(.vertical)
             }
-            .navigationTitle("대화")
+            .navigationTitle("채팅")
         }
     }
 }

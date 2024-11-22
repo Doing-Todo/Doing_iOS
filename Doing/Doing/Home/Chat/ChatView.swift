@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+extension Color {
+    static let c1 = Color("chat_1")
+    static let me = Color("chat-color-me")
+    static let date = Color("chat-notice")
+}
+
 struct ChatView: View {
     
     let chatRoom: ChatRoom
@@ -16,10 +22,17 @@ struct ChatView: View {
     var body: some View {
         VStack {
             // 날짜 표시
-            Text(currentDateString())
-                .font(.headline)
-                .foregroundColor(.gray)
-                .padding(.top, 10)
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .frame(width: 95, height: 25)
+                    .background(Color.date)
+                    .cornerRadius(50)
+                Text(currentDateString())
+                    .font(.headline)
+                    .font(.system(size: 2))
+                    .foregroundColor(.white)
+            }.padding(.top, 10)
             
             // 메시지 목록
             ScrollView {
@@ -45,19 +58,20 @@ struct ChatView: View {
                     .padding()
                     .background(Color.gray.opacity(0.2))
                     .cornerRadius(8)
+                    .frame(height: 35)
                 
                 Button(action: sendMessage) {
-                    Image(systemName: "paperplane.fill")
-                        .foregroundColor(.white)
+                    Image("send")
                         .padding()
-                        .background(Color.blue)
+                        .background(Color.white)
                         .clipShape(Circle())
                 }
             }
             .padding()
         }
+        .background(Color.c1)
         .navigationTitle("채팅")
-        .navigationBarTitleDisplayMode(.inline)
+//        .navigationBarTitleDisplayMode(.inline)
     }
     
     private func sendMessage() {
@@ -69,8 +83,7 @@ struct ChatView: View {
     
     private func currentDateString() -> String {
             let formatter = DateFormatter()
-            formatter.dateStyle = .long
-            formatter.timeStyle = .none
+        formatter.dateFormat = "yyyy.MM.dd"
             return formatter.string(from: Date())
         }
 }
@@ -86,9 +99,9 @@ struct ChatBubble: View {
                 }
                 Text(message.text)
                     .padding()
-                    .background(message.isSentByCurrentUser ? Color.blue : Color.gray.opacity(0.2))
+                    .background(message.isSentByCurrentUser ? Color.me : Color.white)
                     .foregroundColor(message.isSentByCurrentUser ? .white : .black)
-                    .cornerRadius(10)
+                    .cornerRadius(20)
                 if !message.isSentByCurrentUser {
                     Spacer()
                 }
