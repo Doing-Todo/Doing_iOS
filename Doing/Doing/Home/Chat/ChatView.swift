@@ -14,7 +14,7 @@ extension Color {
 }
 
 struct ChatView: View {
-    
+    @Environment(\.presentationMode) var presentationMode
     let chatRoom: ChatRoom
         @State private var messages: [Message] = []
         @State private var newMessage: String = ""
@@ -30,7 +30,7 @@ struct ChatView: View {
                     .cornerRadius(50)
                 Text(currentDateString())
                     .font(.headline)
-                    .font(.system(size: 2))
+                    .font(.system(size: 1))
                     .foregroundColor(.white)
             }.padding(.top, 10)
             
@@ -71,7 +71,13 @@ struct ChatView: View {
         }
         .background(Color.c1)
         .navigationTitle("채팅")
-//        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: Button(action: {
+            presentationMode.wrappedValue.dismiss()
+        }) {
+            Image("leftArrow")
+                .font(.system(size: 16))
+        })
     }
     
     private func sendMessage() {

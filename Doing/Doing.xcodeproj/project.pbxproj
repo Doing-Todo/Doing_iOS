@@ -17,7 +17,6 @@
 		F71907E62CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907E52CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift */; };
 		F71907E92CB8F75700E6A5F4 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71907E82CB8F75700E6A5F4 /* Tab.swift */; };
 		F73062BE2CE0AD7E00A34FD6 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73062BD2CE0AD7E00A34FD6 /* ChatView.swift */; };
-		F73062C02CE0ADB700A34FD6 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73062BF2CE0ADB700A34FD6 /* ChatViewModel.swift */; };
 		F73870192CAFCC1A005D4DF2 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */; };
 		F738701C2CAFCC93005D4DF2 /* NavigationBtnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */; };
 		F738701E2CAFCCF6005D4DF2 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */; };
@@ -32,6 +31,7 @@
 		F750A7FE2CA0F466002A57C5 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750A7FD2CA0F466002A57C5 /* SplashView.swift */; };
 		F750A8012CA0F4A4002A57C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F750A8002CA0F4A4002A57C5 /* LoginView.swift */; };
 		F75EC4912CBCD25300943842 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75EC4902CBCD25300943842 /* Double+Extensions.swift */; };
+		F768223A2CF8995A001F126B /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76822392CF8995A001F126B /* AudioRecorder.swift */; };
 		F776DE0F2CA92E7400A4287E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE0E2CA92E7400A4287E /* MainTabView.swift */; };
 		F776DE112CA9314800A4287E /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE102CA9314800A4287E /* TodoListView.swift */; };
 		F776DE132CA9316100A4287E /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776DE122CA9316100A4287E /* MemoView.swift */; };
@@ -64,7 +64,6 @@
 		F7B362612CA0EC62007E44E9 /* DoingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B362602CA0EC62007E44E9 /* DoingUITests.swift */; };
 		F7B362632CA0EC62007E44E9 /* DoingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B362622CA0EC62007E44E9 /* DoingUITestsLaunchTests.swift */; };
 		F7FBA9AD2CE8941F001C1BFA /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FBA9AC2CE8941F001C1BFA /* ChatListView.swift */; };
-		F7FBA9AF2CE89436001C1BFA /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FBA9AE2CE89435001C1BFA /* ChatListViewModel.swift */; };
 		F7FBA9B12CE8C639001C1BFA /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FBA9B02CE8C639001C1BFA /* Chat.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,7 +95,6 @@
 		F71907E52CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderViewModel.swift; sourceTree = "<group>"; };
 		F71907E82CB8F75700E6A5F4 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		F73062BD2CE0AD7E00A34FD6 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
-		F73062BF2CE0ADB700A34FD6 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		F73870182CAFCC19005D4DF2 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		F738701B2CAFCC93005D4DF2 /* NavigationBtnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBtnType.swift; sourceTree = "<group>"; };
 		F738701D2CAFCCF6005D4DF2 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
@@ -111,6 +109,7 @@
 		F750A7FD2CA0F466002A57C5 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		F750A8002CA0F4A4002A57C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F75EC4902CBCD25300943842 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		F76822392CF8995A001F126B /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
 		F776DE0E2CA92E7400A4287E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		F776DE102CA9314800A4287E /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		F776DE122CA9316100A4287E /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
@@ -136,7 +135,6 @@
 		F7B362602CA0EC62007E44E9 /* DoingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoingUITests.swift; sourceTree = "<group>"; };
 		F7B362622CA0EC62007E44E9 /* DoingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F7FBA9AC2CE8941F001C1BFA /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
-		F7FBA9AE2CE89435001C1BFA /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
 		F7FBA9B02CE8C639001C1BFA /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +199,7 @@
 			children = (
 				F71907E32CB8F51800E6A5F4 /* VoiceRecorderView.swift */,
 				F71907E52CB8F53100E6A5F4 /* VoiceRecorderViewModel.swift */,
+				F76822392CF8995A001F126B /* AudioRecorder.swift */,
 			);
 			path = VoiceRecorder;
 			sourceTree = "<group>";
@@ -217,9 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				F73062BD2CE0AD7E00A34FD6 /* ChatView.swift */,
-				F73062BF2CE0ADB700A34FD6 /* ChatViewModel.swift */,
 				F7FBA9AC2CE8941F001C1BFA /* ChatListView.swift */,
-				F7FBA9AE2CE89435001C1BFA /* ChatListViewModel.swift */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -554,6 +551,7 @@
 				F776DE192CA93D4900A4287E /* KakaoAuthVM.swift in Sources */,
 				F738702C2CAFD147005D4DF2 /* Path.swift in Sources */,
 				F70ED48A2CD876220032A27E /* OnboardingContent.swift in Sources */,
+				F768223A2CF8995A001F126B /* AudioRecorder.swift in Sources */,
 				F71907DB2CB8EDD700E6A5F4 /* MemoViewModel.swift in Sources */,
 				F776DE172CA9361600A4287E /* TimerView.swift in Sources */,
 				F7B210BE2CCCDFF800CE0BBB /* Int+Extensions.swift in Sources */,
@@ -563,7 +561,6 @@
 				F75EC4912CBCD25300943842 /* Double+Extensions.swift in Sources */,
 				F71907E12CB8F08300E6A5F4 /* Memo.swift in Sources */,
 				F738701E2CAFCCF6005D4DF2 /* CustomNavigationBar.swift in Sources */,
-				F73062C02CE0ADB700A34FD6 /* ChatViewModel.swift in Sources */,
 				F776DE132CA9316100A4287E /* MemoView.swift in Sources */,
 				F71907E42CB8F51800E6A5F4 /* VoiceRecorderView.swift in Sources */,
 				F73870252CAFD001005D4DF2 /* TodoView.swift in Sources */,
@@ -586,7 +583,6 @@
 				F73870342CAFFA1D005D4DF2 /* OnboardingView.swift in Sources */,
 				F70ED4882CD875B10032A27E /* OnboardingViewModel.swift in Sources */,
 				F7B210B82CCCDF0700CE0BBB /* TimerViewModel.swift in Sources */,
-				F7FBA9AF2CE89436001C1BFA /* ChatListViewModel.swift in Sources */,
 				F7FBA9B12CE8C639001C1BFA /* Chat.swift in Sources */,
 				F7FBA9AD2CE8941F001C1BFA /* ChatListView.swift in Sources */,
 				F71907E92CB8F75700E6A5F4 /* Tab.swift in Sources */,

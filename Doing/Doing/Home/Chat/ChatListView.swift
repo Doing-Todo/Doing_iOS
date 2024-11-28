@@ -21,7 +21,7 @@ struct ChatListView: View {
             return chatRooms.filter { $0.title.contains(searchText) }
         }
     }
-    
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         NavigationView {
             ScrollView {
@@ -52,7 +52,13 @@ struct ChatListView: View {
                 .padding(.vertical)
             }
             .navigationTitle("채팅")
-        }
+            .navigationBarItems(leading: Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }) {
+                Image("leftArrow")
+                    .font(.system(size: 16))
+            })
+        }.navigationBarBackButtonHidden(true)
     }
 }
 
